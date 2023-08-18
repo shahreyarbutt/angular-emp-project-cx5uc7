@@ -1,0 +1,69 @@
+/* EmployeeDetailsComponent's private CSS styles */
+label {
+  display: inline-block;
+  width: 3em;
+  margin: .5em 0;
+  color: #607D8B;
+  font-weight: bold;
+}
+button {
+  margin-top: 20px;
+  font-family: Arial;
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer; cursor: hand;
+}
+button:hover {
+  background-color: #cfd8dc;
+}
+button:disabled {
+  background-color: #eee;
+  color: #ccc;
+  cursor: auto;
+}
+table {
+  align-items: center;
+  border-width: 5px;
+  border: #f52f77;
+}
+table {
+  align-items: center;
+  font-family: "Arial Black", Gadget, sans-serif;
+  border: 2px solid #f52f77;
+  background-color: #f52f77;
+  width: 80%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table td, table th {
+  border: 1px solid #f52f77;
+  padding: 3px 2px;
+  color: #f52f77;
+  font-size: larger;
+}
+table tbody td {
+  font-size: 13px;
+  color: #f52f77;
+}
+table tr:nth-child(even) {
+  background: #f52f77;
+}
+table thead {
+  background: #f52f77;
+  border-bottom: 3px solid #f52f77;
+}
+table thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #f52f77;
+  text-align: center;
+  border-left: 2px solid #f52f77;
+}
+table thead th:first-child {
+  border-left: none;
+}
+
+
+  
